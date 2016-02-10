@@ -1,0 +1,122 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+
+}
+
+div {
+    display: block;
+}
+
+
+
+.flex-layout-row {
+	margin-left: 5px;
+	margin-right: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.box1 {
+    background-color: red;
+    padding: 20px;
+    font-size: 18px;
+    height: 300px;
+    width: 200px;
+}
+
+.box2 {
+	background-color: #4A90E2;
+	height: 300px;
+	width: 200px;
+}
+
+.box3 {
+	background-color: gray;
+	height: 300px;
+	width: 200px;
+}
+
+.padded-row {
+    padding: 50px 0;
+}
+
+.flag-box-red {
+	background-color: #D0021B;
+    float: left;
+    height: 200px;
+    width: 20%;
+}
+
+.flag-box-blue {
+	background-color: #4A90E2;
+	float: right;
+    height: 200px;
+    width: 80%;
+}
+.container2 {
+	margin: 10px;
+	float-bottom: 10px;
+}
+
+.flexbox,
+.flexbox-item {
+	display: -webkit-flex;	/* Chrome 21+ */
+	display: flex;			/* Opera 12.1, Firefox 22+ */
+	
+	/* Align and distribute flex items on the main axis (horizontally) */
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+	/* Align and distribute flex items on the cross axis (vertically) */
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.flexbox-item {
+	/**
+   * Viewport Units
+   * 
+   * A viewport unit (vh/vw) is relative to the viewport size
+   * 1 viewport unit = 1% of the viewport 
+   */
+	height: 80vh;
+}
+
+
+
+.nav,
+.third {
+	/* prevent shrinking and growing */
+	-webkit-flex: none;
+	flex: none;
+	width: 180px;
+	height: 50px
+}
+
+.first {
+	background-color: blue;
+	height: 50px
+}
+
+.third {
+	background-color: gray;
+}
+
+.second {
+	/* allow shrinking and growing */
+	-webkit-flex: auto;
+	flex: auto;
+	width: auto;
+	background-color: red;
+	height: 50px
+}
+
+
+
+	
+	
+	
