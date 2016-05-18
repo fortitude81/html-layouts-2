@@ -1,4 +1,76 @@
-body {
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.clear {
+	clear: both;
+}
+
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.square {
+	width: 220px;
+	height: 130px;
+	float: left;
+	margin: 20px 0 20px 20px;
+}
+
+.red {
+	background-color: #C20016;
+}
+.blue {
+	background-color: #3B7ADB;
+}
+.gray {
+	background-color: #393939;
+	margin-right: 20px;
+}
+
+#content {
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin: 0 15px;
+	line-height: 1.2em;
+}
+
+#red-rectangle {
+	width: 220px;
+	height: 290px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 36px;
+}
+
+#blue-rectangle {
+	width: 475px;
+	height: 290px;
+	float: left;
+	margin-top: 36px;
+}
+
+#footer {
+	height: 130px;
+	width: 695px;
+	margin: 25px 0 0 15px;
+	padding: 0;
+}
+.red-bar {
+	width: 30px;
+	height: 130px;
+	float: right;
+	margin: 0;
+}
+#gray-box {
+	width: 160px;
+	height: 130px;
+	float: right;
+	margin: 0;
+}
+/*body {
 	background-color: #FFFFFF;
 	margin: 0;
 	padding: 0;
@@ -60,31 +132,31 @@ div {
 .container2 {
 	margin: 10px;
 	float-bottom: 10px;
-}
+}*/
 
-.flexbox,
-.flexbox-item {
-	display: -webkit-flex;	/* Chrome 21+ */
-	display: flex;			/* Opera 12.1, Firefox 22+ */
+/*.flexbox,*/
+/*.flexbox-item {
+	display: -webkit-flex;	 Chrome 21+ 
+	display: flex;*/			/* Opera 12.1, Firefox 22+ 
 	
 	/* Align and distribute flex items on the main axis (horizontally) */
-	-webkit-justify-content: center;
+	/*-webkit-justify-content: center;
 	justify-content: center;
 	
-	/* Align and distribute flex items on the cross axis (vertically) */
+	 Align and distribute flex items on the cross axis (vertically) 
 	-webkit-align-items: center;
 	align-items: center;
-}
+}*/
 
-.flexbox-item {
-	/**
+/*.flexbox-item {
+	*
    * Viewport Units
    * 
    * A viewport unit (vh/vw) is relative to the viewport size
    * 1 viewport unit = 1% of the viewport 
-   */
+   
 	height: 80vh;
-}
+}*/
 
 
 
@@ -97,26 +169,25 @@ div {
 	height: 50px
 }
 
-.first {
+/*.first {
 	background-color: blue;
 	height: 50px
 }
 
 .third {
 	background-color: gray;
-}
+}*/
 
-.second {
+/*.second {*/
 	/* allow shrinking and growing */
-	-webkit-flex: auto;
+/*	-webkit-flex: auto;
 	flex: auto;
 	width: auto;
 	background-color: red;
 	height: 50px
-}
+}*/
 
 
 
-	
 	
 	
